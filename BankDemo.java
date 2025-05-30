@@ -1,7 +1,7 @@
 class BankAccount{
-    int accountNumber;
-    String accountHolderName;   
-    double balance;
+    private int accountNumber;
+    private String accountHolderName;   
+    private double balance;
     BankAccount(int accountNumber, String accountHolderName, double balance){
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
